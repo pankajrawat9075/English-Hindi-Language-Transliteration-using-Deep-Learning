@@ -1,4 +1,4 @@
-# CS6910_Assignment_1 
+# CS6910_Assignment_3
 # roll no. CS22M062 Pankaj Singh Rawat
 
 **Instructions to train and evaluate the neural network models:**
