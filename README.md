@@ -1,18 +1,20 @@
 # CS6910_Assignment_3
 # roll no. CS22M062 Pankaj Singh Rawat
-
+ 
 **Instructions to train and evaluate the neural network models:**
 
-1.Install the required libraries in your environment using this command:
-pip install -r requirements.txt
-
-2. To train the neural network on the Fashion-MNIST dataset using cross-entropy loss, use the notebook: Deep_Learning_wandb.ipynb.
-
-  a. In this notebook, to train using the best values for hyperparameters obtained from our use of the wandb sweeps functionality, do not run cells in the section titled "Hyperparameter tuning using Wandb". Run all the other cells of the notebook to train the model. Testing is done on the best parameter model.
-  
-  b. In order to run the hyperparameter search on your own, run the "Hyperparameter tuning using Wandb" section.
-  
-3. To train the model for the mean square error, just run the "Training the model on mean square error loss function" section
- 
-4. To run the 3 recommendations just run the cells for "Testing 3 models on MNSIT Dataset" section
+1. Open the DL_PA3_final.ipynb file in colab/ kaggle
+2. Upload the Aksharantar dataset released by AI4Bharat to your google drive 
+3. Run the following cells completely in the DL_PA3_final.ipynb file
+    "Importing Libraries and models"
+    "Load Dataset"
+    "seq2seq model"
+    "Helper functions"
+    "Training function"
+    "Translating predictions to words"
+ 4. To run the sweeps for the Vanilla Model run "Runnning sweeps for models without Attention" cells
+ 5. To run the sweeps for the Attention Model run "Runnning sweeps for models with Attention"
+ 6. To test the Best Hyperparameters for Vanilla Model run "Testing the Best Model(without Attention) on Test Data" cells
+ 7. To test the Best Hyperparameters for Attention Model run "Testing the Best Model(with Attention) on Test Data" cells
+ 8. To generate Heat Maps for attention run "Plotting the Attention HeatMaps" cells
 
