@@ -1,6 +1,7 @@
 # Sequence to Sequence Language Transliteration using RNNs and Transformers
 
-This repository contains the files for the third assignment of the course CS6910 - Deep Learning at IIT Madras
+This repository contains the files for the third assignment of the course CS6910 - Deep Learning at IIT Madras.
+
 The transformers part was added later and was not part of the assignment.
 
 Implemented a Encoder Decoder Architecture with/without Attention Mechanism, and later with Transformers, and used then to perform Transliteration on the Akshanrankar Dataset(Englist-Hindi transliteration pairs) provided. These models where built using RNN, LSTM and GRU cells provided by PyTorch.
